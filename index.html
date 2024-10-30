@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Spotify Clone</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Spotify Clone</h1>
+        </header>
+        <main class="main-content">
+            <section class="album-list">
+                <h2>Albums</h2>
+                <div class="album" onclick="playMusic('TYDUS - First Girlfriend (Lyrics).mp3')">
+                    <img src="album1.jpg" alt="Album 1">
+                    <p>TYDUS - First Girlfriend</p>
+                </div>
+                <div class="album" onclick="playMusic('sin-city-wasnt-made-for-ya.mp3')">
+                    <img src="album2.jpg" alt="Album 2">
+                    <p>Sin city Wasnt Made for Ya</p>
+                </div>
+                <div class="album" onclick="playMusic('vine-boom.mp3')">
+                    <img src="album3.jpg" alt="Album3">
+                    <p>Vine Boom</p>
+                </div>
+            </section>
+            <audio id="audio-player" controls></audio>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

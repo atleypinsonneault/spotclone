@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #121212;
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.header {
+    background-color: #1DB954;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #181818;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.album-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.album {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.album img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
